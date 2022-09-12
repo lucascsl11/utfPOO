@@ -4,7 +4,7 @@ public class PrimeiroPrograma {
 	public static void main(String[] args){ //declarando a main
 		//println ---> ln = "line"
 		
-		int idade = 30;
+		int idade = 31;
 		String nome = "Cleiton";
 		boolean cu = true;
 		
