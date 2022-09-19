@@ -41,7 +41,10 @@ public class ContaBancaria {
 	}
 	
 	public void setTitular(String titular) {
-		this.titular = titular;
+		if(!titular.equals("")) {
+			this.titular = titular;
+		}
+		System.out.println("O titular deve ter um nome!");
 	}
 	
 	//Métodos públicos - acessíveis em outras classes
