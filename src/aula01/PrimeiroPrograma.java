@@ -6,7 +6,7 @@ public class PrimeiroPrograma {
 		
 		int idade = 31;
 		String nome = "Cleiton";
-		boolean cu = true;
+		boolean cabelo = true;
 		
 		//Tipos de print
 			//Print normal --> não quebra linha
@@ -15,7 +15,7 @@ public class PrimeiroPrograma {
 			
 			//Println --> quebra linha
 			System.out.println("\ncoxinha");
-			System.out.println(nome + " tem " + idade + " anos. Tem cu? " + cu);
+			System.out.println(nome + " tem " + idade + " anos. Tem cabelo? " + cabelo);
 			
 			//Printf ---> funciona que nem na linguagem C
 			System.out.printf("%s tem %d anos", nome, idade);

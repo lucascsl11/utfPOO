@@ -1,4 +1,9 @@
 package d3f3ct;
+/*
+ * Pacote criado por diversão para um RPG de mesa onde meu personagem é um robô. 
+ * Achei divertido criar em forma de POO. Atualizações com novos 
+ * métodos e conhecimentos devem ocorrer logo.
+ */
 
 public class Defect {
 	public static void main(String args[]) {
