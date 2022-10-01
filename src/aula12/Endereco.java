@@ -1,8 +1,8 @@
 package aula12;
 
 public class Endereco {
-	String logradouro, bairro, cidade, unidadeFederativa;
-	int numero;
+	private String logradouro, bairro, cidade, unidadeFederativa;
+	private int numero;
 	
 	public Endereco(String logradouro, String bairro, String cidade, String unidadeFederativa, int numero) {
 		this.logradouro = logradouro;

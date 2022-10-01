@@ -23,7 +23,7 @@ public class Pessoa {
 		this.email = email;
 		
 		//Instanciação de um objeto endereço dentro do objeto pessoa --- mais efetivo!
-		this.endereco = new Endereco(logradouro, bairro, cidade, unidadeFederativa, numero);
+		endereco = new Endereco(logradouro, bairro, cidade, unidadeFederativa, numero);
 	}
 	
 	public String getDataNascimento() {
