@@ -1,5 +1,12 @@
 package d3f3ct;
 
 public class Lore {
-	String titulo, definicao, definicao2;
+	private String dados;
+	
+	public Lore(String dados) {
+		this.dados = dados;
+	}
+	public String getDados() {
+		return dados;
+	}
 }
