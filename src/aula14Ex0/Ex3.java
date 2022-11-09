@@ -16,7 +16,7 @@ public class Ex3 {
 			System.out.println(lista.get(i));
 		}
 		
-		long fim = System.currentTimeMillis();
+		long fim = System.currentTimeMillis();	
 		long tempo = fim - inicio;
 		
 		System.out.println("\n\nTempo gasto: " + tempo + "ms");
